@@ -1,6 +1,6 @@
 # Canadian Mortgage Calculator Suite
 
-Live: https://jk-cu-ms-ds.github.io/canadian-mortgage-suite/
+Live: https://alenzacodes.github.io/canadian-mortgage-suite/
 
 Fourteen Canadian home-buying calculators in one fast, private, static web app, built on rules in force as of October 2026 and cited to official sources.
 
