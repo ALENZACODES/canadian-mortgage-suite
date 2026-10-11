@@ -1,0 +1,433 @@
+{
+ "title": "Bank of Canada target for the overnight rate — change points",
+ "unit": "percent",
+ "source": "Bank of Canada Valet API",
+ "series": {
+  "V39079": "business daily, 2009-04-21 onward",
+  "STATIC_ATABLE_V39079": "end of month, used for 2000-01 to 2009-03"
+ },
+ "retrieved": "2026-10-10",
+ "latest_daily": {
+  "date": "2026-10-08",
+  "rate": 2.25
+ },
+ "changes": [
+  {
+   "date": "1999-12-01",
+   "rate": 4.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2000-02-01",
+   "rate": 5.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2000-03-01",
+   "rate": 5.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2000-05-01",
+   "rate": 5.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-01-01",
+   "rate": 5.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-03-01",
+   "rate": 5.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-04-01",
+   "rate": 4.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-05-01",
+   "rate": 4.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-07-01",
+   "rate": 4.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-08-01",
+   "rate": 4.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-09-01",
+   "rate": 3.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-10-01",
+   "rate": 2.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2001-11-01",
+   "rate": 2.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2002-01-01",
+   "rate": 2.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2002-04-01",
+   "rate": 2.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2002-06-01",
+   "rate": 2.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2002-07-01",
+   "rate": 2.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2003-03-01",
+   "rate": 3.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2003-04-01",
+   "rate": 3.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2003-07-01",
+   "rate": 3.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2003-09-01",
+   "rate": 2.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2004-01-01",
+   "rate": 2.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2004-03-01",
+   "rate": 2.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2004-04-01",
+   "rate": 2.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2004-09-01",
+   "rate": 2.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2004-10-01",
+   "rate": 2.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2005-09-01",
+   "rate": 2.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2005-10-01",
+   "rate": 3.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2005-12-01",
+   "rate": 3.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2006-01-01",
+   "rate": 3.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2006-03-01",
+   "rate": 3.75,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2006-04-01",
+   "rate": 4.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2006-05-01",
+   "rate": 4.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2007-07-01",
+   "rate": 4.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2007-12-01",
+   "rate": 4.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2008-01-01",
+   "rate": 4.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2008-03-01",
+   "rate": 3.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2008-04-01",
+   "rate": 3.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2008-10-01",
+   "rate": 2.25,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2008-12-01",
+   "rate": 1.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2009-01-01",
+   "rate": 1.0,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2009-03-01",
+   "rate": 0.5,
+   "precision": "month",
+   "note": "from month-end series; exact announcement day not in this series"
+  },
+  {
+   "date": "2009-04-21",
+   "rate": 0.25,
+   "precision": "day"
+  },
+  {
+   "date": "2010-06-01",
+   "rate": 0.5,
+   "precision": "day"
+  },
+  {
+   "date": "2010-07-20",
+   "rate": 0.75,
+   "precision": "day"
+  },
+  {
+   "date": "2010-09-08",
+   "rate": 1.0,
+   "precision": "day"
+  },
+  {
+   "date": "2015-01-21",
+   "rate": 0.75,
+   "precision": "day"
+  },
+  {
+   "date": "2015-07-15",
+   "rate": 0.5,
+   "precision": "day"
+  },
+  {
+   "date": "2017-07-12",
+   "rate": 0.75,
+   "precision": "day"
+  },
+  {
+   "date": "2017-09-06",
+   "rate": 1.0,
+   "precision": "day"
+  },
+  {
+   "date": "2018-01-17",
+   "rate": 1.25,
+   "precision": "day"
+  },
+  {
+   "date": "2018-07-11",
+   "rate": 1.5,
+   "precision": "day"
+  },
+  {
+   "date": "2018-10-24",
+   "rate": 1.75,
+   "precision": "day"
+  },
+  {
+   "date": "2020-03-04",
+   "rate": 1.25,
+   "precision": "day"
+  },
+  {
+   "date": "2020-03-16",
+   "rate": 0.75,
+   "precision": "day"
+  },
+  {
+   "date": "2020-03-27",
+   "rate": 0.25,
+   "precision": "day"
+  },
+  {
+   "date": "2022-03-03",
+   "rate": 0.5,
+   "precision": "day"
+  },
+  {
+   "date": "2022-04-14",
+   "rate": 1.0,
+   "precision": "day"
+  },
+  {
+   "date": "2022-06-02",
+   "rate": 1.5,
+   "precision": "day"
+  },
+  {
+   "date": "2022-07-14",
+   "rate": 2.5,
+   "precision": "day"
+  },
+  {
+   "date": "2022-09-08",
+   "rate": 3.25,
+   "precision": "day"
+  },
+  {
+   "date": "2022-10-27",
+   "rate": 3.75,
+   "precision": "day"
+  },
+  {
+   "date": "2022-12-08",
+   "rate": 4.25,
+   "precision": "day"
+  },
+  {
+   "date": "2023-01-26",
+   "rate": 4.5,
+   "precision": "day"
+  },
+  {
+   "date": "2023-06-08",
+   "rate": 4.75,
+   "precision": "day"
+  },
+  {
+   "date": "2023-07-13",
+   "rate": 5.0,
+   "precision": "day"
+  },
+  {
+   "date": "2024-06-06",
+   "rate": 4.75,
+   "precision": "day"
+  },
+  {
+   "date": "2024-07-25",
+   "rate": 4.5,
+   "precision": "day"
+  },
+  {
+   "date": "2024-09-05",
+   "rate": 4.25,
+   "precision": "day"
+  },
+  {
+   "date": "2024-10-24",
+   "rate": 3.75,
+   "precision": "day"
+  },
+  {
+   "date": "2024-12-12",
+   "rate": 3.25,
+   "precision": "day"
+  },
+  {
+   "date": "2025-01-30",
+   "rate": 3.0,
+   "precision": "day"
+  },
+  {
+   "date": "2025-03-13",
+   "rate": 2.75,
+   "precision": "day"
+  },
+  {
+   "date": "2025-09-18",
+   "rate": 2.5,
+   "precision": "day"
+  },
+  {
+   "date": "2025-10-30",
+   "rate": 2.25,
+   "precision": "day"
+  }
+ ]
+}

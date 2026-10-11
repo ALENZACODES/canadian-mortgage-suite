@@ -1,0 +1,814 @@
+{
+ "title": "Big 6 bank posted 5-year rates (per bank)",
+ "retrieved": "2026-10-10",
+ "method": "Wayback snapshot nearest the 15th of the mid-quarter month (Feb/May/Aug/Nov) 2020\u20132026, rendered in headless Chromium (playwright), text-parsed with bank-specific patterns. 'date' is the actual snapshot date (can fall outside the target quarter). Validation: page prime must equal BoC V80691311 on that date (else point dropped); 5-yr fixed must be within 1.0 pt of BoC V80691335 (else dropped). Unparseable points omitted, never guessed. Prime check accepts a match within 7 days after the snapshot (BoC prime series is weekly).",
+ "banks": {
+  "RBC": {
+   "page": "https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+   "points": [
+    {
+     "snapshot": "https://web.archive.org/web/20201030112927id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2020-10-30",
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20211129232404id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2021-11-29",
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20221128053736id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2022-11-28",
+     "prime": 5.95,
+     "posted_5yr_fixed": 6.29,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 5.95
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20230921130911id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2023-09-21",
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.94,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 7.2
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20240118110041id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2024-01-18",
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.79,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 7.2
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20240518232944id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2024-05-18",
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.79,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 7.2
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20241107011615id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2024-11-07",
+     "prime": 5.95,
+     "posted_5yr_fixed": 6.39,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 5.95
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20250111001434id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2025-01-11",
+     "prime": 5.45,
+     "posted_5yr_fixed": 6.39,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 5.45
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20250707232744id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2025-07-07",
+     "prime": 4.95,
+     "posted_5yr_fixed": 6.09,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.95
+    },
+    {
+     "snapshot": "https://web.archive.org/web/20260116224808id_/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2026-01-16",
+     "prime": 4.45,
+     "posted_5yr_fixed": 6.09,
+     "posted_5yr_variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.45
+    },
+    {
+     "prime": 4.45,
+     "snapshot": "https://web.archive.org/web/20260823151720/https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+     "date": "2026-08-23",
+     "target_quarter": "2026Q3"
+    },
+    {
+     "prime": 4.45,
+     "posted_5yr_fixed": 6.19,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.45,
+     "date": "2026-10-10",
+     "snapshot": "https://www.rbcroyalbank.com/mortgages/mortgage-rates.html (live page, rendered 2026-10-10)"
+    }
+   ],
+   "status": "Rate tables load by XHR that Wayback mostly didn't capture; 14 retried quarters rendered empty. Points are the 11 static-parsed snapshots + live."
+  },
+  "TD": {
+   "page": "https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+   "points": [
+    {
+     "prime": 4.1,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20191214202945/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2019-12-14",
+     "target_quarter": "2020Q1"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20200508074012/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2020-05-08",
+     "target_quarter": "2020Q2"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20200812174830/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2020-08-12",
+     "target_quarter": "2020Q3"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20201112025702/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2020-11-12",
+     "target_quarter": "2020Q4"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20210118013558/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2021-01-18",
+     "target_quarter": "2021Q1"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20210415140445/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2021-04-15",
+     "target_quarter": "2021Q2"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20210804153827/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2021-08-04",
+     "target_quarter": "2021Q3"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20211115222438/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2021-11-15",
+     "target_quarter": "2021Q4"
+    },
+    {
+     "prime": 2.6,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20220123120950/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2022-01-23",
+     "target_quarter": "2022Q1"
+    },
+    {
+     "prime": 3.35,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20220520004805/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2022-05-20",
+     "target_quarter": "2022Q2"
+    },
+    {
+     "prime": 4.85,
+     "prime_label": "TD Mortgage Prime",
+     "snapshot": "https://web.archive.org/web/20220810140318/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates/",
+     "date": "2022-08-10",
+     "target_quarter": "2022Q3"
+    },
+    {
+     "prime": 7.35,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.84,
+     "snapshot": "https://web.archive.org/web/20240212231833/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2024-02-12",
+     "target_quarter": "2024Q1"
+    },
+    {
+     "prime": 7.35,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.84,
+     "snapshot": "https://web.archive.org/web/20240515182809/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2024-05-15",
+     "target_quarter": "2024Q2"
+    },
+    {
+     "prime": 6.85,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.79,
+     "snapshot": "https://web.archive.org/web/20240810040534/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2024-08-10",
+     "target_quarter": "2024Q3"
+    },
+    {
+     "prime": 5.6,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.79,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 5.6,
+     "snapshot": "https://web.archive.org/web/20241117051725/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2024-11-17",
+     "target_quarter": "2024Q4"
+    },
+    {
+     "prime": 5.1,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 5.1,
+     "snapshot": "https://web.archive.org/web/20250803025331/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2025-08-03",
+     "target_quarter": "2025Q3"
+    },
+    {
+     "prime": 4.85,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.85,
+     "snapshot": "https://web.archive.org/web/20251025144917/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2025-10-25",
+     "target_quarter": "2025Q4"
+    },
+    {
+     "prime": 4.6,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.6,
+     "snapshot": "https://web.archive.org/web/20260221035835/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2026-02-21",
+     "target_quarter": "2026Q1"
+    },
+    {
+     "prime": 4.6,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.6,
+     "snapshot": "https://web.archive.org/web/20260826145344/https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+     "date": "2026-08-26",
+     "target_quarter": "2026Q3"
+    },
+    {
+     "prime": 4.6,
+     "prime_label": "TD Mortgage Prime",
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.6,
+     "date": "2026-10-10",
+     "snapshot": "https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates (live page, rendered 2026-10-10)"
+    }
+   ],
+   "status": "Many archived snapshots show empty posted-rate fields (XHR not archived); only clean points kept. Prime is 'TD Mortgage Prime', which differs from TD Prime."
+  },
+  "Scotiabank": {
+   "page": "https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+   "points": [
+    {
+     "posted_5yr_fixed": 5.19,
+     "posted_5yr_variable": 4.15,
+     "snapshot": "https://web.archive.org/web/20191208032507/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2019-12-08",
+     "target_quarter": "2020Q1"
+    },
+    {
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.65,
+     "snapshot": "https://web.archive.org/web/20200724211727/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2020-07-24",
+     "target_quarter": "2020Q2"
+    },
+    {
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.65,
+     "snapshot": "https://web.archive.org/web/20200814232951/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2020-08-14",
+     "target_quarter": "2020Q3"
+    },
+    {
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.65,
+     "snapshot": "https://web.archive.org/web/20211112111050/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2021-11-12",
+     "target_quarter": "2021Q4"
+    },
+    {
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.65,
+     "snapshot": "https://web.archive.org/web/20220216044134/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2022-02-16",
+     "target_quarter": "2022Q1"
+    },
+    {
+     "posted_5yr_fixed": 4.99,
+     "posted_5yr_variable": 3.4,
+     "snapshot": "https://web.archive.org/web/20220518004800/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2022-05-18",
+     "target_quarter": "2022Q2"
+    },
+    {
+     "posted_5yr_fixed": 5.99,
+     "posted_5yr_variable": 4.9,
+     "snapshot": "https://web.archive.org/web/20220818052332/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2022-08-18",
+     "target_quarter": "2022Q3"
+    },
+    {
+     "posted_5yr_fixed": 6.14,
+     "posted_5yr_variable": 6.15,
+     "snapshot": "https://web.archive.org/web/20221112024013/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2022-11-12",
+     "target_quarter": "2022Q4"
+    },
+    {
+     "posted_5yr_fixed": 6.34,
+     "posted_5yr_variable": 7.15,
+     "snapshot": "https://web.archive.org/web/20230213215646/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2023-02-13",
+     "target_quarter": "2023Q1"
+    },
+    {
+     "posted_5yr_fixed": 6.34,
+     "posted_5yr_variable": 7.15,
+     "snapshot": "https://web.archive.org/web/20230517234853/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2023-05-17",
+     "target_quarter": "2023Q2"
+    },
+    {
+     "posted_5yr_fixed": 6.54,
+     "posted_5yr_variable": 7.65,
+     "snapshot": "https://web.archive.org/web/20230818101150/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2023-08-18",
+     "target_quarter": "2023Q3"
+    },
+    {
+     "posted_5yr_fixed": 7.04,
+     "posted_5yr_variable": 7.65,
+     "snapshot": "https://web.archive.org/web/20231112174056/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2023-11-12",
+     "target_quarter": "2023Q4"
+    },
+    {
+     "posted_5yr_fixed": 6.79,
+     "posted_5yr_variable": 7.65,
+     "snapshot": "https://web.archive.org/web/20240213010958/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2024-02-13",
+     "target_quarter": "2024Q1"
+    },
+    {
+     "posted_5yr_fixed": 6.79,
+     "posted_5yr_variable": 7.65,
+     "snapshot": "https://web.archive.org/web/20240511203338/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2024-05-11",
+     "target_quarter": "2024Q2"
+    },
+    {
+     "posted_5yr_fixed": 6.59,
+     "posted_5yr_variable": 7.15,
+     "snapshot": "https://web.archive.org/web/20240812072427/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2024-08-12",
+     "target_quarter": "2024Q3"
+    },
+    {
+     "posted_5yr_fixed": 6.49,
+     "posted_5yr_variable": 6.4,
+     "snapshot": "https://web.archive.org/web/20241207090004/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2024-12-07",
+     "target_quarter": "2024Q4"
+    },
+    {
+     "posted_5yr_fixed": 6.49,
+     "posted_5yr_variable": 5.4,
+     "snapshot": "https://web.archive.org/web/20250130142452/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2025-01-30",
+     "target_quarter": "2025Q1"
+    },
+    {
+     "posted_5yr_fixed": 6.49,
+     "posted_5yr_variable": 5.4,
+     "snapshot": "https://web.archive.org/web/20250511124720/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2025-05-11",
+     "target_quarter": "2025Q2"
+    },
+    {
+     "posted_5yr_fixed": 6.09,
+     "posted_5yr_variable": 5.4,
+     "snapshot": "https://web.archive.org/web/20250810143421/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2025-08-10",
+     "target_quarter": "2025Q3"
+    },
+    {
+     "posted_5yr_fixed": 6.09,
+     "posted_5yr_variable": 5.4,
+     "snapshot": "https://web.archive.org/web/20251110051619/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2025-11-10",
+     "target_quarter": "2025Q4"
+    },
+    {
+     "posted_5yr_fixed": 6.09,
+     "posted_5yr_variable": 4.9,
+     "snapshot": "https://web.archive.org/web/20260220000120/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2026-02-20",
+     "target_quarter": "2026Q1"
+    },
+    {
+     "posted_5yr_fixed": 6.09,
+     "posted_5yr_variable": 4.9,
+     "snapshot": "https://web.archive.org/web/20260608051313/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2026-06-08",
+     "target_quarter": "2026Q2"
+    },
+    {
+     "posted_5yr_fixed": 6.19,
+     "posted_5yr_variable": 4.9,
+     "snapshot": "https://web.archive.org/web/20260801014118/https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html",
+     "date": "2026-08-01",
+     "target_quarter": "2026Q3"
+    },
+    {
+     "posted_5yr_fixed": 6.19,
+     "posted_5yr_variable": 4.9,
+     "date": "2026-10-10",
+     "snapshot": "https://www.scotiabank.com/ca/en/personal/rates-prices/mortgages-rates.html (live page, rendered 2026-10-10)"
+    }
+   ],
+   "status": "Scotia does not show prime on this page; variable = posted 'Scotia Flex Value Closed 5 Year' rate."
+  },
+  "BMO": {
+   "page": "https://www.bmo.com/main/personal/mortgages/mortgage-rates/",
+   "points": [],
+   "status": "Wayback renders show only special/'starting at' rates; posted-rate tab and prime ('__prime.value__') never populate in archived copies; live site blocks headless browser. No posted points."
+  },
+  "CIBC": {
+   "page": "https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+   "points": [
+    {
+     "prime": 3.95,
+     "posted_5yr_fixed": 5.34,
+     "snapshot": "https://web.archive.org/web/20200218030751/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2020-02-18",
+     "target_quarter": "2020Q1"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "snapshot": "https://web.archive.org/web/20200814092228/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2020-08-14",
+     "target_quarter": "2020Q3"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20201111220347/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2020-11-11",
+     "target_quarter": "2020Q4"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20210217133509/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2021-02-17",
+     "target_quarter": "2021Q1"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20210517024518/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2021-05-17",
+     "target_quarter": "2021Q2"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20210813175044/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2021-08-13",
+     "target_quarter": "2021Q3"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20211118101502/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2021-11-18",
+     "target_quarter": "2021Q4"
+    },
+    {
+     "prime": 4.7,
+     "snapshot": "https://web.archive.org/web/20220808142729/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2022-08-08",
+     "target_quarter": "2022Q3"
+    },
+    {
+     "prime": 5.95,
+     "posted_5yr_fixed": 6.49,
+     "posted_5yr_variable": 5.95,
+     "snapshot": "https://web.archive.org/web/20221111224742/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2022-11-11",
+     "target_quarter": "2022Q4"
+    },
+    {
+     "prime": 6.7,
+     "posted_5yr_fixed": 6.49,
+     "posted_5yr_variable": 6.45,
+     "snapshot": "https://web.archive.org/web/20230214013347/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2023-02-14",
+     "target_quarter": "2023Q1"
+    },
+    {
+     "prime": 6.7,
+     "posted_5yr_fixed": 6.49,
+     "posted_5yr_variable": 6.7,
+     "snapshot": "https://web.archive.org/web/20230512211712/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2023-05-12",
+     "target_quarter": "2023Q2"
+    },
+    {
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.79,
+     "posted_5yr_variable": 7.2,
+     "snapshot": "https://web.archive.org/web/20230818104959/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2023-08-18",
+     "target_quarter": "2023Q3"
+    },
+    {
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.79,
+     "posted_5yr_variable": 7.2,
+     "snapshot": "https://web.archive.org/web/20231117210900/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2023-11-17",
+     "target_quarter": "2023Q4"
+    },
+    {
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.79,
+     "posted_5yr_variable": 7.2,
+     "snapshot": "https://web.archive.org/web/20240212061819/https://www.cibc.com/en/interest-rates/mortgage-rates.html",
+     "date": "2024-02-12",
+     "target_quarter": "2024Q1"
+    }
+   ],
+   "status": "3 snapshots dropped (2020Q2, 2022Q1, 2022Q2) because page prime disagreed with BoC prime on snapshot date (archive mixed later rate data). Live site blocked headless browser."
+  },
+  "National Bank": {
+   "page": "https://www.nbc.ca/personal/mortgages/rates.html",
+   "points": [
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 5.04,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20200417065612/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2020-04-17",
+     "target_quarter": "2020Q1"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 5.04,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20200428051148/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2020-04-28",
+     "target_quarter": "2020Q2"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.94,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20200721003343/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2020-07-21",
+     "target_quarter": "2020Q3"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20201124004714/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2020-11-24",
+     "target_quarter": "2020Q4"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20210226184656/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2021-02-26",
+     "target_quarter": "2021Q1"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20210513212548/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2021-05-13",
+     "target_quarter": "2021Q2"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20210727173852/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2021-07-27",
+     "target_quarter": "2021Q3"
+    },
+    {
+     "prime": 2.45,
+     "posted_5yr_fixed": 4.79,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 2.45,
+     "snapshot": "https://web.archive.org/web/20211204013253/https://www.nbc.ca/personal/mortgages/rates.html#promo",
+     "date": "2021-12-04",
+     "target_quarter": "2021Q4"
+    },
+    {
+     "prime": 3.2,
+     "posted_5yr_fixed": 5.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 3.2,
+     "snapshot": "https://web.archive.org/web/20220521182504/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2022-05-21",
+     "target_quarter": "2022Q2"
+    },
+    {
+     "prime": 4.7,
+     "posted_5yr_fixed": 6.14,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.7,
+     "snapshot": "https://web.archive.org/web/20220818200258/https://www.nbc.ca/personal/mortgages/rates.html#promo",
+     "date": "2022-08-18",
+     "target_quarter": "2022Q3"
+    },
+    {
+     "prime": 5.45,
+     "posted_5yr_fixed": 6.14,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 5.45,
+     "snapshot": "https://web.archive.org/web/20221006064852/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2022-10-06",
+     "target_quarter": "2022Q4"
+    },
+    {
+     "prime": 6.7,
+     "posted_5yr_fixed": 6.49,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 6.7,
+     "snapshot": "https://web.archive.org/web/20230207042754/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2023-02-07",
+     "target_quarter": "2023Q1"
+    },
+    {
+     "prime": 6.7,
+     "posted_5yr_fixed": 6.49,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 6.7,
+     "snapshot": "https://web.archive.org/web/20230524205047/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2023-05-24",
+     "target_quarter": "2023Q2"
+    },
+    {
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.49,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 7.2,
+     "snapshot": "https://web.archive.org/web/20230801200728/http://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2023-08-01",
+     "target_quarter": "2023Q3"
+    },
+    {
+     "prime": 7.2,
+     "posted_5yr_fixed": 7.04,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 7.2,
+     "snapshot": "https://web.archive.org/web/20231116203128/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2023-11-16",
+     "target_quarter": "2023Q4"
+    },
+    {
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.84,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 7.2,
+     "snapshot": "https://web.archive.org/web/20240221215236/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2024-02-21",
+     "target_quarter": "2024Q1"
+    },
+    {
+     "prime": 7.2,
+     "posted_5yr_fixed": 6.84,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 7.2,
+     "snapshot": "https://web.archive.org/web/20240529014716/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2024-05-29",
+     "target_quarter": "2024Q2"
+    },
+    {
+     "prime": 6.45,
+     "posted_5yr_fixed": 6.59,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 6.45,
+     "snapshot": "https://web.archive.org/web/20240905182743/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2024-09-05",
+     "target_quarter": "2024Q3"
+    },
+    {
+     "prime": 6.45,
+     "posted_5yr_fixed": 6.39,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 6.45,
+     "snapshot": "https://web.archive.org/web/20241008124006/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2024-10-08",
+     "target_quarter": "2024Q4"
+    },
+    {
+     "prime": 5.2,
+     "posted_5yr_fixed": 6.39,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 5.2,
+     "snapshot": "https://web.archive.org/web/20250220120348/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2025-02-20",
+     "target_quarter": "2025Q1"
+    },
+    {
+     "prime": 4.95,
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.95,
+     "snapshot": "https://web.archive.org/web/20250516150638/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2025-05-16",
+     "target_quarter": "2025Q2"
+    },
+    {
+     "prime": 4.95,
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.95,
+     "snapshot": "https://web.archive.org/web/20250802000941/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2025-08-02",
+     "target_quarter": "2025Q3"
+    },
+    {
+     "prime": 4.45,
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.45,
+     "snapshot": "https://web.archive.org/web/20251115221858/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2025-11-15",
+     "target_quarter": "2025Q4"
+    },
+    {
+     "prime": 4.45,
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.45,
+     "snapshot": "https://web.archive.org/web/20260213185715/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2026-02-13",
+     "target_quarter": "2026Q1"
+    },
+    {
+     "prime": 4.45,
+     "posted_5yr_fixed": 6.09,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.45,
+     "snapshot": "https://web.archive.org/web/20260513062526/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2026-05-13",
+     "target_quarter": "2026Q2"
+    },
+    {
+     "prime": 4.45,
+     "posted_5yr_fixed": 6.14,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.45,
+     "snapshot": "https://web.archive.org/web/20261006220419/https://www.nbc.ca/personal/mortgages/rates.html",
+     "date": "2026-10-06",
+     "target_quarter": "2026Q3"
+    },
+    {
+     "prime": 4.45,
+     "posted_5yr_fixed": 6.14,
+     "variable_spread_to_prime": 0.0,
+     "posted_5yr_variable": 4.45,
+     "date": "2026-10-10",
+     "snapshot": "https://www.nbc.ca/personal/mortgages/rates.html (live page, rendered 2026-10-10)"
+    }
+   ],
+   "status": "Fixed = 5-year closed posted; variable = Prime + 0.00% (60-month)."
+  }
+ },
+ "fallback": "mortgage-rates-national.json (V80691335 typical big-6 posted 5-yr; V80691311 prime)"
+}

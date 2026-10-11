@@ -1,0 +1,264 @@
+{
+ "title": "Private mortgage rates in Canada \u2014 ESTIMATED RANGE compiled from published sources, NOT an official index",
+ "retrieved": "2026-10-10",
+ "coverage": "CMHC top-25 MIC averages: 2018-Q4\u20132019-Q4, 2021-Q1\u20132024-Q2 (+2025-Q3 secondary). WOWA: 2021-04 and 2026-10. Broker/trade ranges: 2026. Gaps: 2001\u20132018, 2020 (CMHC 2021 report not found), 2024-Q3\u20132025-Q2.",
+ "cmhc_mic_averages": [
+  {
+   "period": "2018-Q4",
+   "avg_lending_rate": 9.2,
+   "avg_ltv": 57.9,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2020/residential-mortgage-industry-report-2020-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family (2020 report: 'average lending rate to individuals')",
+   "range_of_lending_rates": "7.3\u201311.0"
+  },
+  {
+   "period": "2019-Q1",
+   "avg_lending_rate": 9.2,
+   "avg_ltv": 57.9,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2020/residential-mortgage-industry-report-2020-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family (2020 report: 'average lending rate to individuals')",
+   "range_of_lending_rates": "7.3\u201311.0"
+  },
+  {
+   "period": "2019-Q2",
+   "avg_lending_rate": 9.1,
+   "avg_ltv": 58.8,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2020/residential-mortgage-industry-report-2020-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family (2020 report: 'average lending rate to individuals')",
+   "range_of_lending_rates": "7.4\u201311.4"
+  },
+  {
+   "period": "2019-Q3",
+   "avg_lending_rate": 9.3,
+   "avg_ltv": 58.2,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2020/residential-mortgage-industry-report-2020-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family (2020 report: 'average lending rate to individuals')",
+   "range_of_lending_rates": "7.3\u201311.0"
+  },
+  {
+   "period": "2019-Q4",
+   "avg_lending_rate": 9.8,
+   "avg_ltv": 59.9,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2020/residential-mortgage-industry-report-2020-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family (2020 report: 'average lending rate to individuals')",
+   "range_of_lending_rates": "7.2\u201311.4"
+  },
+  {
+   "period": "2021-Q1",
+   "avg_lending_rate": 8.9,
+   "avg_ltv": 58.0,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2022/residential-mortgage-industry-report-fall-2022-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2021-Q2",
+   "avg_lending_rate": 8.8,
+   "avg_ltv": 57.9,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2022/residential-mortgage-industry-report-fall-2022-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2021-Q3",
+   "avg_lending_rate": 8.1,
+   "avg_ltv": 57.4,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2022/residential-mortgage-industry-report-fall-2022-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2021-Q4",
+   "avg_lending_rate": 8.0,
+   "avg_ltv": 58.5,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2022/residential-mortgage-industry-report-fall-2022-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2022-Q1",
+   "avg_lending_rate": 7.9,
+   "avg_ltv": 58.3,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2022/residential-mortgage-industry-report-fall-2022-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2022-Q2",
+   "avg_lending_rate": 8.0,
+   "avg_ltv": 58.0,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2022/residential-mortgage-industry-report-fall-2022-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2022-Q3",
+   "avg_lending_rate": 8.4,
+   "avg_ltv": 58.0,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2023/residential-mortgage-industry-report-spring-2023-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2022-Q4",
+   "avg_lending_rate": 8.3,
+   "avg_ltv": 58.0,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2024/residential-mortgage-industry-report-fall-2024-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2023-Q1",
+   "avg_lending_rate": 8.6,
+   "avg_ltv": 58.0,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2024/residential-mortgage-industry-report-fall-2024-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2023-Q2",
+   "avg_lending_rate": 8.9,
+   "avg_ltv": 55.9,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2024/residential-mortgage-industry-report-fall-2024-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2023-Q3",
+   "avg_lending_rate": 9.5,
+   "avg_ltv": 57.6,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2024/residential-mortgage-industry-report-fall-2024-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2023-Q4",
+   "avg_lending_rate": 10.4,
+   "avg_ltv": 57.9,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2024/residential-mortgage-industry-report-fall-2024-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2024-Q1",
+   "avg_lending_rate": 10.5,
+   "avg_ltv": 57.9,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2024/residential-mortgage-industry-report-fall-2024-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2024-Q2",
+   "avg_lending_rate": 10.5,
+   "avg_ltv": 57.8,
+   "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/housing-finance/residential-mortgage-industry-report/2024/residential-mortgage-industry-report-fall-2024-en.pdf",
+   "source_quality": "official (CMHC), top-25 MICs, single-family"
+  },
+  {
+   "period": "2025-Q3",
+   "avg_lending_rate": 9.6,
+   "avg_ltv": 58,
+   "source": "CMHC RMIR (as cited by https://www.mortgagesquad.ca/private-mortgage-rates; primary PDF not retrieved)",
+   "source_quality": "secondary citation of official"
+  }
+ ],
+ "wowa": [
+  {
+   "date": "2021-04-18",
+   "type": "lowest advertised 1st-mortgage rates by named private lender/broker",
+   "values": [
+    3.79,
+    4.99,
+    4.99,
+    4.99,
+    5.49,
+    5.75,
+    5.99
+   ],
+   "min": 3.79,
+   "max": 5.99,
+   "source": "https://web.archive.org/web/20210418115501/https://wowa.ca/private-mortgage-rates",
+   "screenshot": "source-screenshots/wowa_private_wayback_20210418.png"
+  },
+  {
+   "date": "2021-04-18 to 2026-10-08",
+   "type": "WOWA 'example' Ontario 1-yr table (unchanged across all snapshots; illustrative, not dated market data)",
+   "first": {
+    "<=60% LTV": 5.99,
+    "<=70% LTV": 6.99,
+    "<=80% LTV": 7.99
+   },
+   "second": {
+    "<=65% LTV": 9.99,
+    "<=75% LTV": 10.99,
+    "<=90% LTV": 11.99
+   },
+   "seen_in": [
+    "https://web.archive.org/web/20210418115501/https://wowa.ca/private-mortgage-rates",
+    "https://web.archive.org/web/20211024061916/https://wowa.ca/private-mortgage-rates",
+    "https://web.archive.org/web/20231211191252/https://wowa.ca/private-mortgage-rates",
+    "https://web.archive.org/web/20251108131920/https://wowa.ca/private-mortgage-rates",
+    "https://wowa.ca/private-mortgage-rates"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "type": "'Best Private Mortgage Rates in Ontario', up to 75% LTV, by credit score",
+   "first": {
+    "550-600": 11.5,
+    "600-640": 6.99,
+    "640-680": 6.24,
+    "680+": 5.49
+   },
+   "second": {
+    "550-600": 11.5,
+    "600-640": 11.0,
+    "640-680": 8.79,
+    "680+": 8.54
+   },
+   "note": "500-550 shown as '-'",
+   "source": "https://wowa.ca/private-mortgage-rates",
+   "screenshot": "source-screenshots/wowa_private_live_2026-10-10.png"
+  }
+ ],
+ "other_published_ranges": [
+  {
+   "period": "2026-early",
+   "position": "first",
+   "low": 8.0,
+   "high": 10.0,
+   "note": "Ontario urban, low LTV",
+   "source": "https://bestrates.ca/private-mortgage-rates-ontario",
+   "source_quality": "broker website"
+  },
+  {
+   "period": "2026-early",
+   "position": "second",
+   "low": 10.0,
+   "high": 13.0,
+   "note": "Ontario urban",
+   "source": "https://bestrates.ca/private-mortgage-rates-ontario",
+   "source_quality": "broker website"
+  },
+  {
+   "period": "2026-09",
+   "position": "first",
+   "low": 7.0,
+   "high": 10.0,
+   "source": "https://www.mortgagesquad.ca/private-mortgage-rates",
+   "source_quality": "broker website, 'illustrative'"
+  },
+  {
+   "period": "2026-09",
+   "position": "second",
+   "low": 9.0,
+   "high": 13.0,
+   "source": "https://www.mortgagesquad.ca/private-mortgage-rates",
+   "source_quality": "broker website, 'illustrative'"
+  },
+  {
+   "period": "2026-09",
+   "position": "first",
+   "low": 5.5,
+   "high": 9.0,
+   "note": "lender panel, 'mid-5% to nearly 9%'",
+   "source": "https://www.canadianmortgagetrends.com/2026/09/private-lenders-warn-brokers-to-look-beyond-mortgage-rates/",
+   "source_quality": "trade press"
+  }
+ ],
+ "not_obtained": {
+  "ratehub.ca/private-mortgage": "rendered page has no rate figures",
+  "wowa.ca/second-mortgage-rates": "rendered page has no rate table",
+  "CMHC RMIR 2018, 2019, 2021, 2025, 2026 PDFs": "not found at tried assets.cmhc-schl.gc.ca / publications.gc.ca URL patterns",
+  "FSRA 2024 private lending report": "volumes only, no rate levels",
+  "BoC FSR / pre-2018 figures": "not searched in this pass",
+  "WOWA snapshots before 2021-04": "Wayback had none earlier for this URL"
+ }
+}
