@@ -1,3 +1,5 @@
+![Canadian Mortgage Calculator Suite banner](docs/banner.png)
+
 # Canadian Mortgage Calculator Suite
 
 [![tests](https://github.com/ALENZACODES/canadian-mortgage-suite/actions/workflows/tests.yml/badge.svg)](https://github.com/ALENZACODES/canadian-mortgage-suite/actions/workflows/tests.yml)

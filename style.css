@@ -1,32 +1,32 @@
 :root {
-  --bg: #f6f7f9;
-  --card: #fff;
-  --ink: #14181f;
-  --muted: #5a6472;
-  --line: #dde1e7;
-  --accent: #c8102e;
-  --accent2: #1f5fa8;
-  --good: #127a3d;
-  --bad: #b3261e;
-  --c0: #1f5fa8;
-  --c1: #c8102e;
-  --c2: #e0a100;
+  --bg: var(--w-cream);
+  --card: var(--w-paper);
+  --ink: var(--w-ink);
+  --muted: var(--w-muted);
+  --line: var(--w-line);
+  --accent: var(--w-red);
+  --accent2: var(--w-navy);
+  --good: var(--w-good);
+  --bad: var(--w-bad);
+  --c0: var(--w-navy);
+  --c1: var(--w-red);
+  --c2: #b08d2c;
   --radius: 14px;
   color-scheme: light;
 }
 [data-theme="dark"] {
-  --bg: #0f1318;
-  --card: #171d25;
-  --ink: #e9edf2;
-  --muted: #a3adba;
-  --line: #2b3440;
-  --accent: #ff5a6e;
-  --accent2: #7fb2ff;
-  --good: #5fd38d;
-  --bad: #ff8a80;
-  --c0: #7fb2ff;
-  --c1: #ff5a6e;
-  --c2: #ffcc4d;
+  --bg: #061433;
+  --card: #0b2150;
+  --ink: #f3f1ea;
+  --muted: #c3cbe0;
+  --line: #2a3f72;
+  --accent: #ff9a9a;
+  --accent2: #a9c1ff;
+  --good: #7fdca2;
+  --bad: #ffa29a;
+  --c0: #a9c1ff;
+  --c1: #ff9a9a;
+  --c2: #e8c766;
   color-scheme: dark;
 }
 * {
@@ -433,4 +433,48 @@ h3 {
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* Navy and red wave theme (see theme/waves.css) */
+.top.w-wave {
+  --ink: var(--w-on-navy);
+  --muted: var(--w-on-navy-muted);
+  background-color: var(--w-navy);
+  background-image: url("theme/wave-lines.svg");
+  padding-bottom: 22px;
+}
+.top.w-wave h1 {
+  font-family: var(--w-serif);
+  font-weight: 600;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+}
+.top.w-wave .logo {
+  background: var(--w-red);
+  outline: 2px solid #fff;
+}
+.top.w-wave button.ghost {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.top.w-wave button.primary,
+[data-theme="dark"] .top.w-wave button.primary {
+  background: var(--w-red);
+  border-color: #fff;
+  color: #fff;
+}
+.top.w-wave button:focus-visible {
+  outline-color: #fff;
+}
+.w-headings h2,
+.w-headings h3 {
+  font-family: var(--w-serif);
+  font-weight: 600;
+}
+.foot .w-script {
+  font-size: 1.7em;
+  vertical-align: -0.15em;
+}
+[data-theme="dark"] .w-script {
+  color: #ff9a9a;
 }
