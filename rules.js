@@ -29,7 +29,7 @@
       QC: { brackets: [[62900, 0.5], [315000, 1.0], [Infinity, 1.5]] },
       MTL: { brackets: [[62900, 0.5], [315000, 1.0], [552300, 1.5], [1104700, 2.0], [2136500, 2.5], [3113000, 3.5], [Infinity, 4.0]] },
       MB: { brackets: [[30000, 0], [90000, 0.5], [150000, 1.0], [200000, 1.5], [Infinity, 2.0]] },
-      SK: { titleBase: 6300, titleRate: 0.3 },
+      SK: { freeTo: 500, flatTo: 6300, flatFee: 25, titleRate: 0.4 },
       AB: { titleBase: 50, mortBase: 50, perUnit: 5, unit: 5000 },
       NB: { rate: 1.0 },
       NS: { rate: 1.5, note: 'Municipal deed transfer tax; Halifax rate shown, others 0.5% to 1.5%.' },

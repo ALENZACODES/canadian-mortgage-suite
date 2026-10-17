@@ -161,7 +161,7 @@
         out.notes.push('Quebec transfer duties are levied by the municipality');
         break;
       case 'MB': out.provincial = bracketTax(p, L.MB.brackets); break;
-      case 'SK': out.provincial = Math.max(0, p - L.SK.titleBase) * L.SK.titleRate / 100; out.notes.push('Land titles fee, not a tax'); break;
+      case 'SK': out.provincial = p <= L.SK.freeTo ? 0 : p <= L.SK.flatTo ? L.SK.flatFee : p * L.SK.titleRate / 100; out.notes.push('Land titles fee, not a tax'); break;
       case 'AB':
         out.provincial = L.AB.titleBase + Math.ceil(p / L.AB.unit) * L.AB.perUnit;
         if (o.loan) out.provincial += L.AB.mortBase + Math.ceil(o.loan / L.AB.unit) * L.AB.perUnit;

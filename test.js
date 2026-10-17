@@ -109,7 +109,7 @@ near(C.landTransferTax({ province: 'QC', price: 600000, montreal: true }).total,
 // Others
 near(C.landTransferTax({ province: 'MB', price: 300000 }).total, 300 + 600 + 750 + 2000, 0.01, 'MB 300k');
 near(C.landTransferTax({ province: 'MB', price: 25000 }).total, 0, 0.01, 'MB under 30k');
-near(C.landTransferTax({ province: 'SK', price: 406300 }).total, 1200, 0.01, 'SK title fee');
+near(C.landTransferTax({ province: 'SK', price: 406300 }).total, 1625.2, 0.01, 'SK title fee');
 near(C.landTransferTax({ province: 'AB', price: 500000, loan: 400000 }).total, 50 + 500 + 50 + 400, 0.01, 'AB fees');
 near(C.landTransferTax({ province: 'NB', price: 300000 }).total, 3000, 0.01, 'NB 1%');
 near(C.landTransferTax({ province: 'NS', price: 400000 }).total, 6000, 0.01, 'Halifax 1.5%');

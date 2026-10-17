@@ -24,7 +24,8 @@ Most Canadian mortgage calculators online either ignore the stress test, skip la
 | Rent vs buy | Net worth after N years either way |
 | FHSA and HBP | Down payment plan using both programs |
 | GST/HST new home rebate | First-time buyer rebate on new homes |
-| Compare | Two scenarios side by side |
+| Compare | Up to three mortgages side by side |
+| Sources | Every rule used, with the official source and an as-of date |
 
 Every result can be shared as a link or printed as a PDF. Nothing is sent anywhere; it all runs in the browser.
 
@@ -38,6 +39,8 @@ No build step. Clone the repo and open `index.html`, or serve the folder:
 
     python3 -m http.server 8000
 
+then open http://localhost:8000/.
+
 ## Tests
 
     node test.js
@@ -49,6 +52,13 @@ No build step. Clone the repo and open `index.html`, or serve the folder:
 - Rules: OSFI (qualifying rate), CMHC (insurance premiums, GDS/TDS), FCAC (down payment minimums, penalties), the Interest Act (compounding), and each province's land transfer tax legislation. Citations with as-of dates are in `sources.js` and shown in the app.
 - Market data in `data/`: Bank of Canada Valet (policy rate, posted and typical 5-year rates), Statistics Canada tables (household debt, debt service, new housing price index), CREA MLS® HPI, and posted rates from the Big Six banks. Private mortgage rates are an estimated range from published sources, not an official index. Full series IDs and URLs are in [data/SOURCES.md](data/SOURCES.md).
 
+## Limits
+
+- Rules and rates are as of October 2026. Lenders can apply stricter limits than the ones here.
+- Land transfer tax for Nova Scotia uses the Halifax rate. Other Nova Scotia municipalities charge 0.5% to 1.5%.
+- Territories charge land titles fees only, and the amounts here are estimates from published schedules.
+- Private mortgage rates are an estimated range, not quotes.
+
 ## Layout
 
 - `rules.js`: rate tables and thresholds
@@ -59,6 +69,8 @@ No build step. Clone the repo and open `index.html`, or serve the folder:
 
 ---
 
-Educational only, not financial advice. John Khan.
+Educational only, not financial advice.
 
-MIT License.
+## Licence
+
+MIT. Copyright 2026 John Khan.
